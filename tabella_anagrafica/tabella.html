@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="Stylesheet" href="stili.css">
+        
+    </head>
+    <body>
+        <h1 class="Titolo">Modulo Anagrafico</h1>
+        <div class="contenitore-input">
+            <form class="input">
+                <!--Campo nome-->
+                <label>Nome</label><br>
+                <input id="Nome"><br>
+
+                <!--Campo Cognome-->
+                <label>Cognome</label><br>
+                <input id="Cognome"><br>
+
+                <!--Campo Indirizzo-->
+                <label>Indirizzo</label><br>
+                <input id="Indirizzo"><br>
+
+                <!--Campo Citta-->
+                <label>Citta</label><br>
+                <input id="Citta"><br>
+                
+            </form>
+
+            <br><br><button class="invio" onclick="invia()">Invia <br> Dati</button><br><br>
+
+        </div>
+
+        <div class="contenitore-tabella">
+
+            <table id="tabella" class="tabella">
+                <tr>
+                    <th>Nome</th>
+                    <th>Cognome</th>
+                    <th>Indirizzo</th>
+                    <th>Citta</th>
+                </tr>
+            </table>
+
+        </div>
+        
+        
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

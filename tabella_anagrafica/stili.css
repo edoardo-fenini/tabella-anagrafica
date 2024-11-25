@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-image: url("prova3.jpeg");
+    height: 100%;
+
+}
+
+
+.tabella {
+    border: 2px, solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   
+}
+
+
+.contenitore-tabella {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    border-radius: 20px;
+    min-height: 300px;
+    width: 66%;
+}
+
+
+.contenitore-input {
+
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+input {
+    
+    background-color: transparent;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+
+button.invio {
+    margin-left: 33%;
+    border-radius: 25px;
+    width: 55px;
+    height: 30px;
+    text-overflow: clip;
+    background-image: url("LaetareSunday1-300x300.png");
+}
+
+
+/*Bordi tabella*/
+
+.tabella td, .tabella th {
+    width:  2px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+  }
+  
